@@ -1,0 +1,10 @@
+{{> header}} <!--как include в pug-->
+
+<body>
+    {{> navbar }}
+    
+    <div class="container">
+        {{{ body }}}  // в это место  hbs рендерит страницу
+    </div>
+</body>
+</html>
